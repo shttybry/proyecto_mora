@@ -1,0 +1,118 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('taylor\ swift\ era\ wallpaper\ in\ black.jpg'); /* cambia 'fondo.jpg' por el nombre de tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #b983ff;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #a66cff;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+section img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Títulos */
+h1, h2 {
+  font-family: 'Georgia', serif;
+  color: #5e17eb;
+}
+
+/* Lista de álbumes */
+ul {
+  padding-left: 20px;
+}
+
+blockquote {
+  font-style: italic;
+  background-color: #f3d9ff;
+  border-left: 4px solid #b983ff;
+  margin: 20px 0;
+  padding: 10px 15px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #a66cff;
+  color: white;
+  padding: 15px 0;
+}
+/* Fondo para la sección de álbumes */
+#albumes {
+  background-color: #f9e7ff;
+  border-top: 3px solid #d3a4ff;
+  border-bottom: 3px solid #d3a4ff;
+  padding: 40px 20px;
+  margin-top: 40px;
+  border-radius: 15px;
+}
+
+/* Lista de álbumes en estilo de tarjetas */
+.album-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.album-list li {
+  background-color: #fff0fa;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.album-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
